@@ -74,6 +74,21 @@ OPENAI_API_KEY=your_api_key_here
 
 ---
 
+
+## 🌐 Quick Web App (Review Text → SQL)
+
+Run the Streamlit app to upload/paste a review and generate:
+
+- extracted JSON features
+- a SQL table schema (`review_features`)
+- a ready-to-run `INSERT` statement
+- a table preview row
+
+```bash
+pip install -r requirements.txt
+streamlit run app/web.py
+```
+
 ## ▶️ Usage
 
 ```python
